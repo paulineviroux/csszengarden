@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+--------------------------------------------MONCODE--------------------------------------------------
+---------------------------------------------------------------------------------------------------*/
+body{
+	font-family: avenir, 'avenir next', helvetica, arial, sans-serif; 
+	line-height: 1.5;
+}
+
+header{
+	background-color: #111B23;
+	min-height: 290px;
+	padding-top: 2em;
+	background-image: url("../img/pineappleBcg-01.png");
+	background-repeat: repeat; 
+}
+h1{
+	height: 231px;
+	width: 167px;
+	font-size: 0;
+	/*background-image: url("../img/paLogCss.png")*/
+	margin: 0 auto;
+	display: block;
+	background-image: url(../img/logoCss2.svg);*/
+	
+}
+p{
+	padding-bottom: .5em;
+}
+.intro h2{
+	transform: rotate(-90deg);
+	color: #E86B1E;
+	position: absolute;
+	font-size: 1.3em;
+	top: 22.4em;
+	left: 9.2%;
+}
+.preamble, .summary{
+	background-color: #1D2B38;
+	color: white;
+	padding: 1em 0;
+}
+.preamble p:last-child{
+	padding-bottom: 1em;
+}
+.summary p:first-child{
+	padding-top: 1em;
+}
+.preamble h3{
+	padding-bottom: 0.7em;
+}	
+abbr{
+	text-decoration: none;
+}
+.preamble a, .summary a{
+	color: #E86B1E;
+	text-decoration: none;
+}
+.summary h3, .summary p, .preamble h3, .preamble p{
+	width: 55%;
+	text-align: justify;
+	margin: 0 auto;
+} 
+.summary p, .preamble p{
+	line-height: 1.3;
+}
+.main{
+	background-color: #FFA155;
+	background-image: linear-gradient(30deg, #E86759 12%, transparent 12.5%, transparent 87%, #E86759 87.5%, #E86759),
+	linear-gradient(150deg, #E86759 12%, transparent 12.5%, transparent 87%, #E86759 87.5%, #E86759),
+	linear-gradient(30deg, #E86759 12%, transparent 12.5%, transparent 87%, #E86759 87.5%, #E86759),
+	linear-gradient(150deg, #E86759 12%, transparent 12.5%, transparent 87%, #E86759 87.5%, #E86759),
+	linear-gradient(60deg, #F4B46B 25%, transparent 25.5%, transparent 75%, #F4B46B 75%, #F4B46B), 
+	linear-gradient(60deg, #F4B46B 25%, transparent 25.5%, transparent 75%, #F4B46B 75%, #F4B46B);
+	background-size:80px 140px;
+	background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+.main a{
+	color: #79BA43;
+	text-decoration: none;
+	font-weight: 600;
+	transition: 0.2s ease-in-out;
+}
+.main a:hover, .main a:focus{
+	transform: scale(1.15);
+	color: Forestgreen;
+}
+.explanation, .participation, .benefits, .requirements, footer{
+	width: 55%;
+	text-align: justify;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, .8);
+	padding: 0 1.9%;
+	color: #1D2B38;
+}
+.main h3{
+	padding: .7em 0 .2em;
+	font-size: 1.5em;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.explanation h3{
+	padding-top: 1.5em;
+}
+.requirements p:last-child{
+	font-size: 1.5em;
+	padding: 1em 0 2em;
+	font-style: italic;
+	opacity: 0.9;
+	text-align: center;
+}
+footer{
+	text-align: center;
+	padding-bottom: 1em;
+}
+footer a{
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	text-indent: -9999px;
+	overflow: hidden;
+	padding-right: 1.1%;
+}
+.zen-validate-html{
+	background-image: url(../img/spriteLogo.png);
+	background-repeat: no-repeat; 
+	background-position: 0 0;
+}
+.zen-validate-css{
+	background-image: url(../img/spriteLogo.png);
+	background-repeat: no-repeat; 
+	background-position: 0 -98px;
+}
+.zen-license{
+	background-image: url(../img/spriteLogo.png);
+	background-repeat: no-repeat; 
+	background-position: 0 -198px;
+}
+.zen-accessibility{
+	background-image: url(../img/spriteLogo.png);
+	background-repeat: no-repeat; 
+	background-position: 0 -299px;
+}
+.zen-github{
+	background-image: url(../img/spriteLogo.png);
+	background-repeat: no-repeat; 
+	background-position: 0 -398px;
+}
+.sidebar{
+	background-color:  #1D2B38;
+}
+h3.select, h3.archives{
+	text-indent: -9999px;
+	font-size: 0px;
+}
+.design-selection{
+	color: #fff;
+}
+.design-selection a{
+	color: #F4B46B;
+	font-size: 1.3em;
+	font-weight: 100;
+	text-decoration: none;
+	font-style: italic;
+	padding: 0.5em 0;
+}
+.design-selection li a:first-child{
+	text-transform: uppercase;
+	font-style: normal;
+}
+.design-selection li:first-child{
+	margin-top: 1.5em;
+}
+.design-selection li:nth-child(-n+4){
+	text-align: left;
+	padding-top: 0.5em;
+}
+.design-selection li:nth-child(n+5){
+	text-align: right;
+	padding-top: 0.5em;
+}
+.zen-resources{
+	background-color: #111B23;
+	text-align: center;
+	min-height: 60px;
+	position: relative;
+}
+.zen-resources li{
+	display: inline;
+	padding-right: 2em;
+}
+.zen-resources ul{
+	position: absolute;
+	left: 19%;
+	top: 1em;
+}
+.zen-resources a{
+	margin: 1em 0;
+	text-decoration: none;
+	color: #78B943;
+	font-size: 1.2em;
+	font-weight: 100;
+}
+.zen-resources h3{
+	text-indent: -9999px;
+	font-size: 0px;
+}
+.next a{
+	text-decoration: none;
+	color: white;
+	background-color: #78B943;
+	padding: 1em;
+	display: inline-block;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: 0.7;
+	margin: 3em 0.56% 1em ;
+}
+.viewall a{
+	text-decoration: none;
+	color: white;
+	background-color: #78B943;
+	padding: 1em;
+	display: inline-block;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: 0.7;
+	margin: 3em 0.56% 2em;
+}
+.design-archives li{
+	display: inline-block;
+}
+.design-archives{
+	text-align: center;
+}
+
