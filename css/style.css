@@ -206,6 +206,7 @@ h3.select, h3.archives{
 }
 .design-selection{
 	color: #fff;
+	margin: 0 auto;
 }
 .design-selection a{
 	color: #F4B46B;
@@ -213,22 +214,17 @@ h3.select, h3.archives{
 	font-weight: 100;
 	text-decoration: none;
 	font-style: italic;
-	padding: 0.5em 0;
+}
+.design-selection li{
+	text-align: center;
+	padding-bottom: .5em;
 }
 .design-selection li a:first-child{
 	text-transform: uppercase;
 	font-style: normal;
 }
 .design-selection li:first-child{
-	margin-top: 1.5em;
-}
-.design-selection li:nth-child(-n+4){
-	text-align: left;
-	padding-top: 0.5em;
-}
-.design-selection li:nth-child(n+5){
-	text-align: right;
-	padding-top: 0.5em;
+	margin-top: 2.5em;
 }
 .zen-resources{
 	background-color: #111B23;
@@ -265,7 +261,7 @@ h3.select, h3.archives{
 	font-size: 1.2em;
 	text-transform: uppercase;
 	letter-spacing: 0.7;
-	margin: 3em 0.56% 1em ;
+	margin: 2em 3% 1em ;
 }
 .viewall a{
 	text-decoration: none;
@@ -276,7 +272,7 @@ h3.select, h3.archives{
 	font-size: 1.2em;
 	text-transform: uppercase;
 	letter-spacing: 0.7;
-	margin: 3em 0.56% 2em;
+	margin: 2em 3% 2em;
 }
 .design-archives li{
 	display: inline-block;
